@@ -61,8 +61,8 @@ class Assignment1_3
             return;
         }
 if (selection == 1)
-Console.WriteLine("Your date is: " year + "/" + month + "/" + day);
+Console.WriteLine("Your date is: " + year + "/" + month + "/" + day);
 else if (selection == 2)
-Console.WriteLine("Your date is: " year + "." + month + "." + day);
+Console.WriteLine("Your date is: " + year + "." + month + "." + day);
     }
 }
